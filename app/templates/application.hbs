@@ -1,0 +1,9 @@
+<h1>Hello world!</h1>
+{{#vertical-collection data
+                       minHeight=220
+                       containerSelector="body"
+
+as |tag index|
+}}
+    {{test-tag tag=tag index=index}}
+{{/vertical-collection}}

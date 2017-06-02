@@ -1,0 +1,10 @@
+
+<h2>{{tag.label}}</h2>
+<h3>{{index}}</h3>
+<div>
+    {{#each tag.items as |item|}}
+        <div>
+            {{tag.label}} - {{item}}
+        </div>
+    {{/each}}
+</div>
